@@ -3,7 +3,7 @@ img {
 }
 
 .jumbotron {
-  @media screen and (max-width: $large-phone) {
+  @media screen and (max-width: $md) {
     text-align: center;
   }
 
@@ -11,9 +11,9 @@ img {
     margin: 1em auto;
     max-width: 150px;
 
-//    @media screen and (max-width: $large-phone) {
-//      max-width: 200px;
-//    }
+    @media screen and (min-width: $md) {
+      max-width: 100%;
+    }
   }
 
   a {
@@ -27,6 +27,10 @@ img {
       weight: 300;
     }
     margin: 0;
+
+    @media screen and (min-width: $md) { font-size: 4rem; margin-top: 2rem; }
+    @media screen and (min-width: $lg) { font-size: 5rem; margin-top: 3rem; }
+    @media screen and (min-width: $xl) { font-size: 6rem; margin-top: 4rem; }
   }
 
   .tagline {
