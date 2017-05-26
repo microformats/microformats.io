@@ -40,3 +40,29 @@ img {
     }
   }
 }
+
+section {
+  padding-top: 4rem;
+
+  .card-header {
+    font-weight: bold;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+  }
+
+  pre {
+    margin-bottom: 0;
+  }
+
+  .example-heading {
+    border-bottom: 1px solid #efefef;
+    color: #666;
+    padding-bottom: .25em;
+    margin-top:  2rem;
+    font-weight: 300;
+    font-size:   1.25rem;
+  }
+}
+

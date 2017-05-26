@@ -16,23 +16,30 @@
 </div>
 
 
-
-
 <div class="container">
+  <section id="what">
+    <h2>What are Microformats?</h2>
+
+    <p>Microformats are a simple way to add more meaning to you HTML.</p>
+  </section><!-- #what -->
 
 
-<h2 id="what">What are Microformats?</h2>
+  <section id="how">
+    <h2>How do you use Microformats?</h2>
+    <p>It's easy! You probably already know how. It's just classes.</p>
 
-<p>Microformats are a simple way to add more meaning to you HTML.</p>
+    <h3 class="example-heading">
+      <b>Example:</b>
+      Contact Information
+    </h3>
 
-<h2 id="how">How to use Microformats?</h2>
+    <div class="row">
 
-<p>
-  This snippet of HTML is very common.
-  While you as a human can recognize that is contact information,
-  computers could use a few hints to understand it.
-</p>
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <div class="card-header">Plain HTML</div>
 
+          <div class="card-block">
 <pre><code class="html">&lt;div&gt;
   Emma Goldman&lt;br&gt;
   123 Main St&lt;br&gt;
@@ -42,13 +49,21 @@
   &lt;a href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
   &lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
 &lt;/div&gt;</code></pre>
+          </div><!-- .card-block -->
 
+          <div class="card-footer">
+            This snippet of HTML is very common.
+            While you as a human can recognize that is contact information,
+            computers could use a few hints to understand it.
+          </div>
+        </div><!-- .card -->
+      </div><!-- .col -->
 
-<p>
-  By adding just a few HTML classes, you can turn this generic markup into
-  much more meaningful and semantic HTML.
-</p>
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <div class="card-header">HTML + Microformats</div>
 
+          <div class="card-block">
 <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
   &lt;span class=&quot;p-name&quot;&gt;Emma Goldman&lt;/span&gt;
   &lt;span class=&quot;p-street-address&quot;&gt;123 Main St&lt;/span&gt;
@@ -58,114 +73,179 @@
   &lt;a class=&quot;u-email&quot; href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
   &lt;a class=&quot;u-url&quot; rel=&quot;me&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
 &lt;/div&gt;</code></pre>
+          </div><!-- .card-block -->
+
+          <div class="card-footer">
+            By adding just a few HTML classes, you can turn this generic markup into
+            much more meaningful and semantic HTML.
+          </div>
+        </div><!-- .card -->
+      </div><!-- .col -->
+
+    </div><!-- .row -->
+
+    <h3 class="example-heading">
+      <b>Example:</b>
+      Link to Person
+    </h3>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <div class="card-header">Plain HTML</div>
+
+          <div class="card-block">
+            <pre><code class="html">&lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
+          </div><!-- .card-block -->
+
+          <div class="card-footer">
+            Or an even simpler example is just link.
+          </div>
+        </div><!-- .card -->
+      </div><!-- .col -->
+
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <div class="card-header">HTML + Microformats</div>
+
+          <div class="card-block">
+            <pre><code class="html">&lt;a class=&quot;h-card&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
+          </div><!-- .card-block -->
+
+          <div class="card-footer">
+            All it needs is one <code>h-card</code> class on the link tag.
+          </div>
+        </div><!-- .card -->
+      </div><!-- .col -->
+
+    </div><!-- .row -->
+  </section><!-- #how -->
 
 
-<p>Or an even simpler example is just link.</p>
+  <section id="why">
+    <h2>Why use Microformats?</h2>
 
-<pre><code class="html">&lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
+    <p>
+      By adding Microformats to your HTML, your website becomes more
+      understandable to various kinds of computers.
+    </p>
 
-
-<p>All it needs is one <code>h-card</code> class on the link tag.</p>
-
-<pre><code class="html">&lt;a class=&quot;h-card&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
-
-
-<h2 id="why">Why use Microformats?</h2>
-
-<p>
-  By adding Microformats to your HTML, your website becomes more
-  understandable to various kinds of computers.
-</p>
-
-<ul>
-  <li>Search engines can make sense of your HTML which allows them to display a better version in their search results.</li>
-  <li>Browser extensions can enable your readers to download information to their contacts, calendar, and maps apps.</li>
-  <li>Feed readers can be used to subscribe to your website&rsquo;s feeds (blog posts, bookmarks, checkins, etc).</li>
-  <li>You can even use your website (with Microformats) to sign into other websites.</li>
-</ul>
+    <ul>
+      <li>Search engines can make sense of your HTML which allows them to display a better version in their search results.</li>
+      <li>Browser extensions can enable your readers to download information to their contacts, calendar, and maps apps.</li>
+      <li>Feed readers can be used to subscribe to your website&rsquo;s feeds (blog posts, bookmarks, checkins, etc).</li>
+      <li>You can even use your website (with Microformats) to sign into other websites.</li>
+    </ul>
+  </section><!-- #why -->
 
 
-<h2 id="what-else">What else are they good for?</h2>
+  <section id="what-else">
+    <h2>What else are they good for?</h2>
 
-<p>
-  In addition to <a href="http://microformats.org/wiki/h-card">people and organizations</a>,
-  Microformats can be used for:
-  <a href="http://microformats.org/wiki/h-feed">feeds</a>,
-  <a href="http://microformats.org/wiki/h-entry">blog posts</a>,
-  <a href="http://microformats.org/wiki/h-event">events</a>,
-  <a href="http://microformats.org/wiki/h-adr">locations</a>,
-  <a href="http://microformats.org/wiki/h-review">reviews</a>,
-  <a href="http://microformats.org/wiki/h-recipe">recipes</a>,
-  <a href="http://microformats.org/wiki/h-resume">resumes</a>,
-  and <a href="http://microformats.org/wiki/h-product">products</a>.
-</p>
-
-<h2 id="in-the-wild">Examples in the wild</h2>
-
-<ul>
-  <li><a href="https://mastodon.social/about">Mastodon</a></li>
-  <li><a href="https://micro.blog">micro.blog</a></li>
-  <li><a href="https://indieweb.org">#indieweb</a></li>
-</ul>
+    <p>
+      In addition to <a href="http://microformats.org/wiki/h-card">people and organizations</a>,
+      Microformats can be used for:
+      <a href="http://microformats.org/wiki/h-feed">feeds</a>,
+      <a href="http://microformats.org/wiki/h-entry">blog posts</a>,
+      <a href="http://microformats.org/wiki/h-event">events</a>,
+      <a href="http://microformats.org/wiki/h-adr">locations</a>,
+      <a href="http://microformats.org/wiki/h-review">reviews</a>,
+      <a href="http://microformats.org/wiki/h-recipe">recipes</a>,
+      <a href="http://microformats.org/wiki/h-resume">resumes</a>,
+      and <a href="http://microformats.org/wiki/h-product">products</a>.
+    </p>
+  </section><!-- #what-else -->
 
 
-<h2 id="developers">Developers</h2>
+  <section id="in-the-wild">
+    <h2>Examples in the wild</h2>
 
-<p>
-  Microformats are fully specced with a
-  <a href="https://github.com/microformats/tests/">comprehensive test suite</a>
-  and are licensed as Public Domain allowing you to freely use them however you want.
-</p>
-
-<h2 id="parsing-microformats">Parsing Microformats</h2>
-
-<p>
-  If you&rsquo;re a developer working on an app or service,
-  you probably need JSON as your input format.
-  Don&rsquo;t worry.
-  There are several Microformats parsers written in multiple programming languages.
-  A parser will take a URL or a glob of HTML, understand it,
-  then convert it to JSON for your use.
-</p>
-
-<p>You can test your URL here (or HTML snippet on any of the parser sites).</p>
+    <ul>
+      <li><a href="https://mastodon.social/about">Mastodon</a></li>
+      <li><a href="https://micro.blog">micro.blog</a></li>
+      <li><a href="https://indieweb.org">#indieweb</a></li>
+    </ul>
+  </section><!-- #in-the-wild -->
 
 
-<form action="https://ruby.microformats.io/microformats" accept-charset="UTF-8" method="get" class="form -inline mt-3 mb-3">
-  <input name="utf8" type="hidden" value="✓">
+  <section id="developers">
+    <h2>Developers</h2>
 
-  <div class="row">
-  <div class="col-sm-9">
-    <label class="sr-only" for="submission_url">Enter a URL</label>
-    <input id="submission_url" type="url" name="url" class="form-control form-control-lg mb-2 mr-sm-2 mb-sm-0" placeholder="https://example.com/person.html">
-  </div>
+    <p>
+      Microformats are fully specced with a
+      <a href="https://github.com/microformats/tests/">comprehensive test suite</a>
+      and are licensed as Public Domain allowing you to freely use them however you want.
+    </p>
+  </section><!-- #in-the-wild -->
 
-  <div class="col-sm-3">
-    <button type="submit" class="btn btn-primary btn-lg btn-block">Parse</button>
-  </div>
-  </div>
-</form>
+  <section id="parsing">
+    <h2>Parsing Microformats</h2>
 
-<h2 id="parser-libraries">Parser Libraries</h2>
+    <p>
+      If you&rsquo;re a developer working on an app or service,
+      you probably need JSON as your input format.
+      Don&rsquo;t worry.
+      There are several Microformats parsers written in multiple programming languages.
+      A parser will take a URL or a glob of HTML, understand it,
+      then convert it to JSON for your use.
+    </p>
 
-<p>Production ready parsers are available for: <a href="https://go.microformats.io">Go</a>, <a href="https://node.microformats.io">Node</a>, <a href="https://php.microformats.io">PHP</a>, <a href="https://python.microformats.io">Python</a>, <a href="https://ruby.microformats.io">Ruby</a>.</p>
+    <p>You can test your URL here (or HTML snippet on any of the parser sites).</p>
 
-<p>Other parsers are in-development for: <a href="http://microformats.org/wiki/microformats2#Development_parsers">Erlang, Elixir, Haskell, Java, and more</a>.</p>
 
-<h3 id="parsing-example">Parsing Example</h3>
+    <form action="https://ruby.microformats.io/microformats" accept-charset="UTF-8" method="get" class="form -inline mt-3 mb-3">
+      <input name="utf8" type="hidden" value="✓">
 
-<p>Here is a simple <code>h-card</code> example.</p>
+      <div class="row">
+        <div class="col-sm-9">
+          <label class="sr-only" for="submission_url">Enter a URL</label>
+          <input id="submission_url" type="url" name="url" class="form-control form-control-lg mb-2 mr-sm-2 mb-sm-0" placeholder="https://example.com/person.html">
+        </div>
 
-<p>HTML with Microformats.</p>
+        <div class="col-sm-3">
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Parse</button>
+        </div>
+      </div>
+    </form>
+  </section><!-- #parsing -->
 
+
+  <section id="parsers">
+    <h2>Parser Libraries</h2>
+
+    <p>Production ready parsers are available for: <a href="https://go.microformats.io">Go</a>, <a href="https://node.microformats.io">Node</a>, <a href="https://php.microformats.io">PHP</a>, <a href="https://python.microformats.io">Python</a>, <a href="https://ruby.microformats.io">Ruby</a>.</p>
+
+    <p>Other parsers are in-development for: <a href="http://microformats.org/wiki/microformats2#Development_parsers">Erlang, Elixir, Haskell, Java, and more</a>.</p>
+
+    <h3 class="example-heading">
+      <b>Example:</b>
+      Parsing Contact Information
+    </h3>
+
+    <div class="row">
+
+      <div class="col-sm-12 col-md-6">
+        <div class="card">
+          <div class="card-header">HTML + Microformats</div>
+
+          <div class="card-block">
 <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
   &lt;a class=&quot;p-name u-url&quot; href=&quot;http://blog.lizardwrangler.com/&quot;&gt;Mitchell Baker&lt;/a&gt;
   (&lt;a class=&quot;p-org h-card&quot; href=&quot;http://mozilla.org/&quot;&gt;Mozilla Foundation&lt;/a&gt;)
 &lt;/div&gt;</code></pre>
+          </div><!-- .card-block -->
+
+          <div class="card-footer">This is a simple <code>h-card</code> example.</div>
+        </div><!-- .card -->
+      </div><!-- .col -->
+
+      <div class="col-sm-12 col-md-6">
 
 
-<p>Will be converted to this JSON by a parser.</p>
+        <div class="card">
+          <div class="card-header">HTML + Microformats</div>
 
+          <div class="card-block">
 <pre><code class="json">{
   &quot;items&quot;: [{
     &quot;type&quot;: [&quot;h-card&quot;],
@@ -185,14 +265,26 @@
   &quot;rels&quot;: {},
   &quot;rel-urls&quot;: {}
 }</code></pre>
+          </div><!-- .card-block -->
+
+          <div class="card-footer">It will be converted into this JSON by a parser.</div>
+        </div><!-- .card -->
+      </div><!-- .col -->
+    </div><!-- .row -->
+  </section><!-- #parsers -->
 
 
-<h2 id="more">More information</h2>
+  <section id="more">
+    <h2>More information</h2>
 
-<ul>
-  <li>For further reading, head over to the <a href="http://microformats.org/wiki">Microformats community wiki</a>.</li>
-  <li>If you have questions, <a href="https://chat.indieweb.org/microformats">join the #microformats chat</a>.</li>
-  <li>If you have your own personal website (or want to!), check out the <a href="https://indieweb.org">#indieweb community wiki</a> and <a href="https://chat.indieweb.org">join the chat</a>.</li>
-</ul>
+    <ul>
+      <li>For further reading, head over to the <a href="http://microformats.org/wiki">Microformats community wiki</a>.</li>
+      <li>If you have questions, <a href="https://chat.indieweb.org/microformats">join the #microformats chat</a>.</li>
+      <li>If you have your own personal website (or want to!), check out the <a href="https://indieweb.org">#indieweb community wiki</a> and <a href="https://chat.indieweb.org">join the chat</a>.</li>
+    </ul>
+  </section><!-- #parsing -->
 
-</div>
+  <footer class=" text-center my-5">
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="text-muted">CC0</a>
+  </footer>
+</div><!-- .container -->
