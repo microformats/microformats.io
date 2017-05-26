@@ -9,10 +9,11 @@ img {
 
   img {
     margin: 1em auto;
+    max-width: 150px;
 
-    @media screen and (max-width: $large-phone) {
-      max-width: 200px;
-    }
+//    @media screen and (max-width: $large-phone) {
+//      max-width: 200px;
+//    }
   }
 
   a {
@@ -22,7 +23,7 @@ img {
 
   h1 {
     font: {
-      size: 4rem;
+      size: 2.8rem;
       weight: 300;
     }
     margin: 0;
@@ -30,7 +31,7 @@ img {
 
   .tagline {
     font: {
-      size: 2rem;
+      size: 1.5rem;
       weight: 300;
     }
   }
