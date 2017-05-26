@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MicroformatsIo</title>
+    <title>Microformats : Meaningful HTML</title>
+    <title>Ruby Microformats Parser</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
+    <%= stylesheet_link_tag "application", media: "all" %>
   </head>
 
   <body>
-    <%= yield %>
+    <main class="container">
+      <%= yield %>
+    </main>
   </body>
 </html>
