@@ -111,14 +111,20 @@
 
 <p>You can test your URL here (or HTML snippet on any of the parser sites).</p>
 
-<form action="/microformats" accept-charset="UTF-8" method="get">
+
+<form action="https://ruby.microformats.io/microformats" accept-charset="UTF-8" method="get" class="form -inline mt-3 mb-3">
   <input name="utf8" type="hidden" value="✓">
-  <div class="form-group">
-    <label for="url">Enter a URL</label>
-    <input id="submission_url" placeholder="https://example.com/person.html" class="form-control form-control-lg" type="url" name="url">
+
+  <div class="row">
+  <div class="col-sm-9">
+    <label class="sr-only" for="submission_url">Enter a URL</label>
+    <input id="submission_url" type="url" name="url" class="form-control form-control-lg mb-2 mr-sm-2 mb-sm-0" placeholder="https://example.com/person.html">
   </div>
 
-  <button type="submit" class="btn btn-lg btn-success">Parse</button>
+  <div class="col-sm-3">
+    <button type="submit" class="btn btn-primary btn-lg btn-block">Parse</button>
+  </div>
+  </div>
 </form>
 
 <h2 id="parser-libraries">Parser Libraries</h2>
