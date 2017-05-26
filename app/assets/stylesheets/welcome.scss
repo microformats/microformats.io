@@ -1,3 +1,37 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+img {
+  max-width: 100%;
+}
+
+.jumbotron {
+  @media screen and (max-width: $large-phone) {
+    text-align: center;
+  }
+
+  img {
+    margin: 1em auto;
+
+    @media screen and (max-width: $large-phone) {
+      max-width: 200px;
+    }
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  h1 {
+    font: {
+      size: 4rem;
+      weight: 300;
+    }
+    margin: 0;
+  }
+
+  .tagline {
+    font: {
+      size: 2rem;
+      weight: 300;
+    }
+  }
+}

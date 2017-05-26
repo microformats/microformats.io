@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 12.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 51448)  -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   width="337"
+   height="330"
+   viewBox="0 0 337 330"
+   style="overflow:visible;enable-background:new 0 0 337 330;"
+   xml:space="preserve"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docname="mf-vector.svg"
+   sodipodi:docbase="C:\Documents and Settings\Rémi\Mes documents\mf"><metadata
+   id="metadata1339"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+         rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.0/" /><dc:title>Microformats logo</dc:title><dc:date>2006-06-27</dc:date><dc:creator><cc:Agent><dc:title>Rémi Prévost</dc:title></cc:Agent></dc:creator></cc:Work><cc:License
+       rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.0/"><cc:permits
+         rdf:resource="http://web.resource.org/cc/Reproduction" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/Distribution" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/Notice" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/Attribution" /><cc:prohibits
+         rdf:resource="http://web.resource.org/cc/CommercialUse" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/DerivativeWorks" /><cc:requires
+         rdf:resource="http://web.resource.org/cc/ShareAlike" /></cc:License></rdf:RDF></metadata><defs
+   id="defs1337" /><sodipodi:namedview
+   inkscape:window-height="545"
+   inkscape:window-width="871"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   inkscape:zoom="1.1757576"
+   inkscape:cx="168.5"
+   inkscape:cy="165"
+   inkscape:window-x="81"
+   inkscape:window-y="81"
+   inkscape:current-layer="Layer_1" />
+<g
+   id="g1307">
+	<linearGradient
+   id="XMLID_4_"
+   gradientUnits="userSpaceOnUse"
+   x1="8"
+   y1="191.6895"
+   x2="269.5898"
+   y2="191.6895">
+		<stop
+   offset="0"
+   style="stop-color:#6BA140"
+   id="stop1310" />
+		<stop
+   offset="1"
+   style="stop-color:#77AE40"
+   id="stop1312" />
+	</linearGradient>
+	<path
+   style="fill:url(#XMLID_4_);stroke:#FFFFFF;stroke-width:16;"
+   d="M8,113.71c0-30.19,22.04-52.33,52.11-52.33H217.48   c30.069,0,52.109,22.14,52.109,52.33v155.96c0,30.189-22.04,52.33-52.109,52.33H60.11C30.04,322,8,299.859,8,269.67V113.71z"
+   id="path1314" />
+</g>
+<g
+   id="g1316">
+	<linearGradient
+   id="XMLID_5_"
+   gradientUnits="userSpaceOnUse"
+   x1="293.9229"
+   y1="218.3428"
+   x2="108.7389"
+   y2="33.1588">
+		<stop
+   offset="0"
+   style="stop-color:#78B143"
+   id="stop1319" />
+		<stop
+   offset="1"
+   style="stop-color:#92C73C"
+   id="stop1321" />
+	</linearGradient>
+	<path
+   style="fill:url(#XMLID_5_);stroke:#FFFFFF;stroke-width:16;"
+   d="M96.59,63.43c0-24.13,17.65-41.82,41.73-41.82h126.02   c24.08,0,41.73,17.69,41.73,41.82v124.64c0,24.13-17.65,41.82-41.73,41.82H138.32c-24.08,0-41.73-17.69-41.73-41.82V63.43z"
+   id="path1323" />
+</g>
+<g
+   id="g1325">
+	<g
+   id="g1327">
+		<linearGradient
+   id="XMLID_6_"
+   gradientUnits="userSpaceOnUse"
+   x1="320.5742"
+   y1="141.6143"
+   x2="194.6464"
+   y2="15.6864">
+			<stop
+   offset="0"
+   style="stop-color:#94C63A"
+   id="stop1330" />
+			<stop
+   offset="1"
+   style="stop-color:#BCD531"
+   id="stop1332" />
+		</linearGradient>
+		<path
+   style="fill:url(#XMLID_6_);stroke:#FFFFFF;stroke-width:16;"
+   d="M186.221,36.37C186.221,20,198.25,8,214.66,8h85.9    C316.971,8,329,20,329,36.37v84.56c0,16.37-12.029,28.37-28.439,28.37h-85.9c-16.41,0-28.439-12-28.439-28.37V36.37z"
+   id="path1334" />
+	</g>
+</g>
+</svg>
