@@ -173,7 +173,7 @@
 
     <p>
       Microformats are fully specced with a
-      <a href="https://github.com/microformats/tests/">comprehensive test suite</a>
+      <a href="https://github.com/microformats/tests">comprehensive test suite</a>
       and are licensed as Public Domain allowing you to freely use them however you want.
     </p>
   </section><!-- #in-the-wild -->
@@ -214,6 +214,34 @@
     <h2>Parser Libraries</h2>
 
     <p>Production ready parsers are available for: <a href="https://go.microformats.io">Go</a>, <a href="http://node.microformats.io">Node</a>, <a href="https://php.microformats.io">PHP</a>, <a href="http://python.microformats.io">Python</a>, <a href="https://ruby.microformats.io">Ruby</a>.</p>
+
+    <div class="row languages">
+      <div class="col language language-go">
+        <%= link_to "Website", "https://go.microformats.io", class: "btn btn-secondary btn-sm" %>
+        <%= link_to "Library", "https://github.com/willnorris/microformats", class: "btn btn-secondary btn-sm" %>
+        <%= link_to image_tag("parsers/go.png", alt: "Go logo"), "https://go.microformats.io" %>
+      </div>
+      <div class="col language language-node">
+        <%= link_to "Website", "http://node.microformats.io", class: "btn btn-secondary btn-sm" %>
+        <%= link_to "Library", "https://github.com/glennjones/microformat-node", class: "btn btn-secondary btn-sm" %>
+        <%= link_to image_tag("parsers/node.svg", alt: "Node logo"), "http://node.microformats.io" %>
+      </div>
+      <div class="col language language-php">
+        <%= link_to "Website", "https://php.microformats.io", class: "btn btn-secondary btn-sm" %>
+        <%= link_to "Library", "https://github.com/indieweb/php-mf2", class: "btn btn-secondary btn-sm" %>
+        <%= link_to image_tag("parsers/php.svg", alt: "php logo"), "https://php.microformats.io" %>
+      </div>
+      <div class="col language language-python">
+        <%= link_to "Website", "http://python.microformats.io", class: "btn btn-secondary btn-sm" %>
+        <%= link_to "Library", "https://github.com/tommorris/mf2py", class: "btn btn-secondary btn-sm" %>
+        <%= link_to image_tag("parsers/python.svg", alt: "Python logo"), "http://python.microformats.io" %>
+      </div>
+      <div class="col language language-ruby">
+        <%= link_to "Website", "https://ruby.microformats.io", class: "btn btn-secondary btn-sm" %>
+        <%= link_to "Library", "https://github.com/indieweb/microformats-ruby", class: "btn btn-secondary btn-sm" %>
+        <%= link_to image_tag("parsers/ruby.svg", alt: "Ruby logo"), "https://ruby.microformats.io" %>
+      </div>
+    </div>
 
     <p>Other parsers are in-development for: <a href="http://microformats.org/wiki/microformats2#Development_parsers">Erlang, Elixir, Haskell, Java, and more</a>.</p>
 
@@ -285,6 +313,6 @@
   </section><!-- #parsing -->
 
   <footer class=" text-center my-5">
-    <a href="https://creativecommons.org/publicdomain/zero/1.0/" class="text-muted">CC0</a>
+    <a href="https://creativecommons.org/publicdomain/zero/1.0" class="text-muted">CC0</a>
   </footer>
 </div><!-- .container -->

@@ -66,3 +66,20 @@ section {
   }
 }
 
+#parsers .languages {
+  margin-top:    3rem;
+  margin-bottom: 3rem;
+
+  img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .language {
+    text-align: center;
+  }
+
+  .btn {
+    margin-bottom: .5rem;
+  }
+}
