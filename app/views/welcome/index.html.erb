@@ -157,14 +157,26 @@
   </section><!-- #what-else -->
 
 
-  <section id="in-the-wild">
-    <h2>Examples in the wild</h2>
+  <section id="in-the-wild" class="py-5 mb-5">
+    <h2 class="mb-5">Examples in the wild</h2>
 
-    <ul>
-      <li><a href="https://mastodon.social/about">Mastodon</a></li>
-      <li><a href="https://micro.blog">micro.blog</a></li>
-      <li><a href="https://indieweb.org">#indieweb</a></li>
-    </ul>
+    <div class="row">
+      <div class="col-3">
+        <%= link_to "https://mastodon.social/about", target: "blank" do %>
+          <%= image_tag "examples/mastodon.png", alt: "Mastodon logo" %>
+        <% end %>
+      </div>
+      <div class="col-6">
+        <%= link_to "https://indieweb.org", target: "blank" do %>
+          <%= image_tag "examples/indie-web-camp.png", alt: "Indie Web Camp logo" %>
+        <% end %>
+      </div>
+      <div class="col-3">
+        <%= link_to "https://micro.blog", target: "blank" do %>
+          <%= image_tag "examples/micro-blog.png", alt: "micro.blog logo" %>
+        <% end %>
+      </div>
+    </div>
   </section><!-- #in-the-wild -->
 
 
