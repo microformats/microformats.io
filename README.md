@@ -12,7 +12,7 @@ https://microformats.io
 ## Installation
 
 ```bash
-git clone git@github.com:veganstraightedge/microformats.io.git
+git clone https://github.com/veganstraightedge/microformats.io.git
 cd microformats.io
 bundle
 ```
