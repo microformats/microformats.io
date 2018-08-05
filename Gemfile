@@ -49,6 +49,8 @@ group :development do
   gem "flamegraph"
   gem "stackprof"
   gem "fast_stack"
+
+  gem "rubocop"
 end
 
 # windows dev
