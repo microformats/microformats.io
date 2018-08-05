@@ -14,16 +14,11 @@ gem "puma"
 gem "microformats", "~> 4.0.3"
 
 # assets
-gem "bootstrap", "~> 4.0.0.alpha6"
+gem "bootstrap"
 gem "sass-rails"
 gem "autoprefixer-rails"
 gem "uglifier"
 gem "jquery-rails"
-
-# bootstrap tooltips and popovers depend on tether for positioning
-source "https://rails-assets.org" do
-  gem "rails-assets-tether", ">= 1.1.0"
-end
 
 # dev and testing
 group :development, :test do
