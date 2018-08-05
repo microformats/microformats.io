@@ -5,9 +5,8 @@ https://microformats.io
 
 ## Requirements
 
-- [Ruby,  ~> 2.4.1](http://ruby-lang.org)
+- [Ruby,  ~> 2.5.1](http://ruby-lang.org)
 - [Rails, ~> 5.1.0](https://github.com/rails/rails)
-- [ImageMagick](http://imagemagick.org) (`brew install imagemagick@6 && brew link --force imagemagick@6`)
 
 ## Installation
 
