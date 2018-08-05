@@ -94,7 +94,7 @@ GEM
     lumberjack (1.0.12)
     mail (2.6.5)
       mime-types (>= 1.16, < 4)
-    memory_profiler (0.9.8)
+    memory_profiler (0.9.11)
     method_source (0.8.2)
     microformats (4.0.6)
       json
