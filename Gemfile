@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 ruby '2.5.1'
 
 # app server
-gem 'rails', '~> 5.1.0'
-
-# database
-gem 'pg'
+gem 'rails', '~> 5.2.0'
 
 # webserver
 gem 'puma'
 
-# webserver
+# database
+gem 'pg'
+
+# Microformats parser
 gem 'microformats'
 
 # assets
@@ -19,6 +19,9 @@ gem 'bootstrap'
 gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
+
+# Reduces boot times through caching; required in config/boot.rb
+gem 'bootsnap', '>= 1.1.0', require: false
 
 # dev and testing
 group :development, :test do
