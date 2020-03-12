@@ -20,7 +20,10 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-
+  username: <%= ENV.fetch('MICROFORMATS_IO_DATABASE_USERNAME', 'microformats_io') %>
+  password: <%= ENV.fetch('MICROFORMATS_IO_DATABASE_PASSWORD', 'password') %>
+  host: <%= ENV['MICROFORMATS_IO_DATABASE_HOST'] %>
+  port: <%= ENV['MICROFORMATS_IO_DATABASE_PORT'] %>
 development:
   <<: *default
   database: microformats_io_development
@@ -81,5 +84,3 @@ test:
 production:
   <<: *default
   database: microformats_io_production
-  username: microformats_io
-  password: <%= ENV['MICROFORMATS_IO_DATABASE_PASSWORD'] %>
