@@ -1,0 +1,111 @@
+img {
+  max-width: 100%
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    text-align: center
+  }
+}
+
+.jumbotron img {
+  margin: 1em auto;
+  max-width: 150px
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron img {
+    max-width: 100%
+  }
+}
+
+.jumbotron a {
+  color: black;
+  text-decoration: none
+}
+
+.jumbotron h1 {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin: 0
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron h1 {
+    font-size: 4rem;
+    margin-top: 2rem
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 5rem;
+    margin-top: 3rem
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron h1 {
+    font-size: 6rem;
+    margin-top: 4rem
+  }
+}
+
+.jumbotron .tagline {
+  font-size: 1.5rem;
+  font-weight: 300
+}
+
+section {
+  padding-bottom: 4rem
+}
+
+section .card-header {
+  font-weight: bold
+}
+
+section .card {
+  margin-bottom: 2rem
+}
+
+section pre {
+  margin-bottom: 0
+}
+
+section .example-heading {
+  border-bottom: 1px solid #efefef;
+  color: #666;
+  padding-bottom: .25em;
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.25rem
+}
+
+#parsers .languages {
+  margin-top: 3rem;
+  margin-bottom: 3rem
+}
+
+#parsers .languages img {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+
+#parsers .languages .language {
+  text-align: center
+}
+
+#parsers .languages .btn {
+  margin-bottom: .5rem
+}
+
+#in-the-wild {
+  color: white;
+  text-align: center;
+  background: black
+}
+
+#in-the-wild img {
+  max-height: 180px
+}

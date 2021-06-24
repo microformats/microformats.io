@@ -3,31 +3,6 @@
 
 https://microformats.io
 
-## Requirements
-
-- [Ruby,  ~> 2.5.1](http://ruby-lang.org)
-- [Rails, ~> 5.1.0](https://github.com/rails/rails)
-
-## Installation
-
-```bash
-git clone https://github.com/veganstraightedge/microformats.io.git
-cd microformats.io
-bundle
-```
-
-## Database Setup
-
-```bash
-rake db:create db:migrate db:seed
-```
-
-## Usage
-
-```bash
-rails server
-```
-
 ## Authors
 
   * Shane Becker / [@veganstraightedge](https://github.com/veganstraightedge)
