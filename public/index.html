@@ -6,9 +6,7 @@
 
     <title>Microformats : Meaningful HTML</title>
 
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-32x32.png" sizes="32x32" />
-    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/assets/images/microformats-logo.svg">
 
     <link rel="stylesheet" media="all" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" media="all" href="/assets/styles.css">
@@ -23,7 +21,30 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-3">
-            <a class="u-url" href="https://microformats.io/"><img alt="Microformats logo" class="u-photo" src="/assets/images/microformats-logo.svg" /></a>
+            <a class="u-url" href="https://microformats.io/">
+              <span class="e-logo">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <title>Microformats</title>
+                  <linearGradient id="bottom" y2="1">
+                      <stop offset="0" stop-color="#6ba140"/>
+                      <stop offset="1" stop-color="#77ae40"/>
+                  </linearGradient>
+                  <linearGradient id="middle" y2="1">
+                      <stop offset="0" stop-color="#92c73c"/>
+                      <stop offset="1" stop-color="#78b143"/>
+                  </linearGradient>
+                  <linearGradient id="top" y2="1">
+                      <stop offset="0" stop-color="#bcd531"/>
+                      <stop offset="1" stop-color="#94c63a"/>
+                  </linearGradient>
+                  <g stroke="#fff" stroke-width="15">
+                      <rect x="108" y="159" width="246" height="246" rx="51" fill="url(#bottom)"/>
+                      <rect x="192" y="126" width="192" height="192" rx="39" fill="url(#middle)"/>
+                      <rect x="276" y="114" width="132" height="132" rx="24" fill="url(#top)"/>
+                  </g>
+                </svg>
+              </span>
+            </a>
           </div>
 
           <div class="col-md-9 col-sm-12">
