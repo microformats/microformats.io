@@ -57,15 +57,15 @@
               <div class="card-header">Plain HTML</div>
 
               <div class="card-block p-3">
-    <pre><code class="html">&lt;div&gt;
-      Emma Goldman&lt;br&gt;
-      123 Main St&lt;br&gt;
-      Some Town, CA&lt;br&gt;
-      90210
+                <pre><code class="html">&lt;div&gt;
+    Emma Goldman&lt;br&gt;
+    123 Main St&lt;br&gt;
+    Some Town, CA&lt;br&gt;
+    90210
 
-      &lt;a href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
-      &lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
-    &lt;/div&gt;</code></pre>
+    &lt;a href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
+&lt;/div&gt;</code></pre>
               </div><!-- .card-block -->
 
               <div class="card-footer">
@@ -81,15 +81,15 @@
               <div class="card-header">HTML + Microformats</div>
 
               <div class="card-block p-3">
-    <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
-      &lt;span class=&quot;p-name&quot;&gt;Emma Goldman&lt;/span&gt;
-      &lt;span class=&quot;p-street-address&quot;&gt;123 Main St&lt;/span&gt;
-      &lt;span class=&quot;p-locality&quot;&gt;Some Town&lt;/span&gt;, &lt;span class=&quot;p-region&quot;&gt;CA&lt;/span&gt;
-      &lt;span class=&quot;p-postal-code&quot;&gt;90210&lt;/span&gt;
+                <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
+    &lt;span class=&quot;p-name&quot;&gt;Emma Goldman&lt;/span&gt;
+    &lt;span class=&quot;p-street-address&quot;&gt;123 Main St&lt;/span&gt;
+    &lt;span class=&quot;p-locality&quot;&gt;Some Town&lt;/span&gt;, &lt;span class=&quot;p-region&quot;&gt;CA&lt;/span&gt;
+    &lt;span class=&quot;p-postal-code&quot;&gt;90210&lt;/span&gt;
 
-      &lt;a class=&quot;u-email&quot; href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
-      &lt;a class=&quot;u-url&quot; rel=&quot;me&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
-    &lt;/div&gt;</code></pre>
+    &lt;a class=&quot;u-email&quot; href=&quot;mailto:emma.goldman@example.com&quot;&gt;emma.goldman@example.com&lt;/a&gt;&lt;br&gt;
+    &lt;a class=&quot;u-url&quot; rel=&quot;me&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;
+&lt;/div&gt;</code></pre>
               </div><!-- .card-block -->
 
               <div class="card-footer">
@@ -286,10 +286,10 @@
               <div class="card-header">HTML + Microformats</div>
 
               <div class="card-block p-3">
-    <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
-      &lt;a class=&quot;p-name u-url&quot; href=&quot;http://blog.lizardwrangler.com/&quot;&gt;Mitchell Baker&lt;/a&gt;
-      (&lt;a class=&quot;p-org h-card&quot; href=&quot;http://mozilla.org/&quot;&gt;Mozilla Foundation&lt;/a&gt;)
-    &lt;/div&gt;</code></pre>
+                <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
+    &lt;a class=&quot;p-name u-url&quot; href=&quot;http://blog.lizardwrangler.com/&quot;&gt;Mitchell Baker&lt;/a&gt;
+    (&lt;a class=&quot;p-org h-card&quot; href=&quot;http://mozilla.org/&quot;&gt;Mozilla Foundation&lt;/a&gt;)
+&lt;/div&gt;</code></pre>
               </div><!-- .card-block -->
 
               <div class="card-footer">This is a simple <code>h-card</code> example.</div>
@@ -303,25 +303,25 @@
               <div class="card-header">HTML + Microformats</div>
 
               <div class="card-block p-3">
-    <pre><code class="json">{
-      &quot;items&quot;: [{
+                <pre><code class="json">{
+  &quot;items&quot;: [{
+    &quot;type&quot;: [&quot;h-card&quot;],
+    &quot;properties&quot;: {
+      &quot;url&quot;: [&quot;http://blog.lizardwrangler.com/&quot;],
+      &quot;name&quot;: [&quot;Mitchell Baker&quot;],
+      &quot;org&quot;: [{
+        &quot;value&quot;: &quot;Mozilla Foundation&quot;,
         &quot;type&quot;: [&quot;h-card&quot;],
         &quot;properties&quot;: {
-          &quot;url&quot;: [&quot;http://blog.lizardwrangler.com/&quot;],
-          &quot;name&quot;: [&quot;Mitchell Baker&quot;],
-          &quot;org&quot;: [{
-            &quot;value&quot;: &quot;Mozilla Foundation&quot;,
-            &quot;type&quot;: [&quot;h-card&quot;],
-            &quot;properties&quot;: {
-              &quot;name&quot;: [&quot;Mozilla Foundation&quot;],
-              &quot;url&quot;: [&quot;http://mozilla.org/&quot;]
-            }
-          }]
+          &quot;name&quot;: [&quot;Mozilla Foundation&quot;],
+          &quot;url&quot;: [&quot;http://mozilla.org/&quot;]
         }
-      }],
-      &quot;rels&quot;: {},
-      &quot;rel-urls&quot;: {}
-    }</code></pre>
+      }]
+    }
+  }],
+  &quot;rels&quot;: {},
+  &quot;rel-urls&quot;: {}
+}</code></pre>
               </div><!-- .card-block -->
 
               <div class="card-footer">It will be converted into this JSON by a parser.</div>
