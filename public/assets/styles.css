@@ -64,6 +64,10 @@ section .card-header {
   font-weight: bold
 }
 
+.card-footer {
+  margin-bottom: 0;
+}
+
 section .card {
   margin-bottom: 2rem
 }
