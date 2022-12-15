@@ -16,23 +16,23 @@
 
   <body>
 
-    <main>
+    <header class="jumbotron mb-5 h-card">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <a class="u-url" href="https://microformats.io/"><img alt="Microformats" class="u-logo"
+                src="/assets/images/microformats-logo.svg" /></a>
+          </div>
 
-      <div class="jumbotron mb-5 h-card">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-3">
-              <a class="u-url" href="https://microformats.io/"><img alt="Microformats" class="u-logo"
-                  src="/assets/images/microformats-logo.svg" /></a>
-            </div>
-
-            <div class="col-md-9 col-sm-12">
-              <h1><a class="p-name u-url" href="https://microformats.io/">Microformats</a></h1>
-              <p class="tagline text-muted">Meaningful HTML</p>
-            </div>
+          <div class="col-md-9 col-sm-12">
+            <h1><a class="p-name u-url" href="https://microformats.io/">Microformats</a></h1>
+            <p class="tagline text-muted">Meaningful HTML</p>
           </div>
         </div>
       </div>
+    </header>
+
+    <main>
 
       <div class="container">
         <section id="what">
@@ -53,8 +53,8 @@
           <div class="row">
 
             <div class="col-sm-12 col-md-6">
-              <div class="card">
-                <div class="card-header">Plain HTML</div>
+              <figure class="card">
+                <figcaption class="card-header">Plain HTML</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="html">&lt;div&gt;
@@ -68,17 +68,17 @@
 &lt;/div&gt;</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">
+                <p class="card-footer">
                   This snippet of HTML is very common.
                   While you as a human can recognize that is contact information,
                   computers could use a few hints to understand it.
-                </div>
-              </div><!-- .card -->
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
 
             <div class="col-sm-12 col-md-6">
-              <div class="card">
-                <div class="card-header">HTML + Microformats</div>
+              <figure class="card">
+                <figcaption class="card-header">HTML + Microformats</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
@@ -92,11 +92,11 @@
 &lt;/div&gt;</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">
+                <p class="card-footer">
                   By adding just a few HTML classes, you can turn this generic markup into
                   much more meaningful and semantic HTML.
-                </div>
-              </div><!-- .card -->
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
 
           </div><!-- .row -->
@@ -108,31 +108,31 @@
 
           <div class="row">
             <div class="col-sm-12 col-md-6">
-              <div class="card">
-                <div class="card-header">Plain HTML</div>
+              <figure class="card">
+                <figcaption class="card-header">Plain HTML</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="html">&lt;a href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">
+                <p class="card-footer">
                   Or an even simpler example is just link.
-                </div>
-              </div><!-- .card -->
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
 
             <div class="col-sm-12 col-md-6">
-              <div class="card">
-                <div class="card-header">HTML + Microformats</div>
+              <figure class="card">
+                <figcaption class="card-header">HTML + Microformats</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="html">&lt;a class=&quot;h-card&quot; href=&quot;https://twitter.com/emmagoldman&quot;&gt;@emmagoldman&lt;/a&gt;</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">
+                <p class="card-footer">
                   All it needs is one <code>h-card</code> class on the link tag.
-                </div>
-              </div><!-- .card -->
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
 
           </div><!-- .row -->
@@ -294,8 +294,8 @@
           <div class="row">
 
             <div class="col-sm-12 col-md-6">
-              <div class="card">
-                <div class="card-header">HTML + Microformats</div>
+              <figure class="card">
+                <figcaption class="card-header">HTML + Microformats</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="html">&lt;div class=&quot;h-card&quot;&gt;
@@ -304,15 +304,17 @@
 &lt;/div&gt;</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">This is a simple <code>h-card</code> example.</div>
-              </div><!-- .card -->
+                <p class="card-footer">
+                  This is a simple <code>h-card</code> example.
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
 
             <div class="col-sm-12 col-md-6">
 
 
-              <div class="card">
-                <div class="card-header">HTML + Microformats</div>
+              <figure class="card">
+                <figcaption class="card-header">HTML + Microformats</figcaption>
 
                 <div class="card-block p-3">
                   <pre><code class="json">{
@@ -336,8 +338,10 @@
 }</code></pre>
                 </div><!-- .card-block -->
 
-                <div class="card-footer">It will be converted into this JSON by a parser.</div>
-              </div><!-- .card -->
+                <p class="card-footer">
+                  It will be converted into this JSON by a parser.
+                </p>
+              </figure><!-- .card -->
             </div><!-- .col -->
           </div><!-- .row -->
         </section><!-- #parsers -->
@@ -362,13 +366,17 @@
           </ul>
         </section><!-- #parsing -->
 
-        <footer class="text-center my-5">
-          <a href="https://creativecommons.org/publicdomain/zero/1.0" rel="license" class="text-muted">CC0</a>
-        </footer>
-
       </div><!-- .container -->
 
     </main>
+
+    <div class="container">
+
+      <footer class="text-center my-5">
+        <a href="https://creativecommons.org/publicdomain/zero/1.0" rel="license" class="text-muted">CC0</a>
+      </footer>
+
+    </div><!-- .container -->
 
   </body>
 
